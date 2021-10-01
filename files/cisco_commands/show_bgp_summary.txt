@@ -1,0 +1,18 @@
+show bgp summary
+Thu Aug  5 15:10:00.693 MDT
+BGP router identifier 10.99.3.1, local AS number 65001
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 10556
+BGP main routing table version 10556
+BGP NSR Initial initsync version 2 (Reached)
+BGP NSR/ISSU Sync-Group versions 10556/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker           10556      10556      10556      10556       10556       10556
+

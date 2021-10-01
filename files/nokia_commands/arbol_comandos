@@ -1,0 +1,58 @@
+Show Commands
+
+    show
+
+    router [router-instance]
+
+        bgp
+
+            auth-keychain keychain-name
+
+            damping [damp-type] [detail]
+            damping [ip-prefix | prefix-length] [detail]
+
+            group [name] [detail]
+
+            neighbor [ip-address [detail]]
+            neighbor [as-number [detail]]
+            neighbor ip-address [family [type mvpn-type]] filter1 [brief]
+            neighbor ip-address [family] filter2
+            neighbor as-number [family] filter2
+            neighbor ip-address orf [filter3]
+            neighbor ip-address graceful-restart
+
+            next-hop [family] [ip-address] [detail]
+
+            paths
+
+            route-target
+
+            routes [family] [brief]
+            routes [family] prefix [detail | longer | hunt [brief]]
+            routes family [prefix] [detail | longer | hunt [brief]]
+            routes [family [type mvpn-type]] community comm-id
+            routes [family [type mvpn-type]] aspath-regex reg-ex
+            routes vpn-ipv4 prefix [rd rd] [detail | longer | hunt [ brief]]
+            routes vpn-ipv6 prefix [rd rd] [detail | longer | hunt [ brief]]
+            routes mvpn-ipv4 type mvpn-type {rd rd | originator-ip ip-address | source-ip ip-address | group-ip ip-address | source-as as-number} [hunt| detail]
+            routes [family [l2vpn-type]] [brief]
+            routes [family [l2vpn-type]] community comm-id
+            routes [family [l2vpn-type]] aspath-regex reg-ex
+            routes evpn {[inclusive-mcast] | [ip-prefix] | [mac]]}
+            routes evpn inclusive-mcast [hunt | detail] [rd rd] [originator-ip ip-address] [next-hop ip-address] [community comm-id] [tag vni-id]
+            routes evpn ip-prefix [hunt | detail] [rd rd] [prefix ip-prefix/mask] [community comm-id] [tag vni-id] [next-hop ip-address]
+            routes evpn mac [hunt | detail] [rd rd] [next-hop ip-address] [mac-address mac-address] [community comm-id] [tag vni-id]
+            routes l2-vpn l2vpn-type {[rd rd] | [siteid site-id] | [veid veid] [offset vpls-base-offset ]}
+            routes mdt-safi [rd rd] [grp-address mcast-grp-address] [brief]
+            routes ms-pw [rd rd] [aii-type2 aii-type2] [brief]
+            routes flow-ipv4
+
+            policy-test policy-name family family prefix prefix/pfxlen [longer]] [neighbor neighbor] [display-rejects] [detail]
+
+            summary [all]
+            summary [family family] [neighbor ip-address]
+
+        fib
+        fib
+
+        route-table

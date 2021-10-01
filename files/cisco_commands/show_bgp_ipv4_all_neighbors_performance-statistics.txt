@@ -1,0 +1,175 @@
+show bgp ipv4 all neighbors performance-statistics 
+Thu Aug  5 15:19:18.899 MDT
+
+BGP neighbor is 10.99.255.92
+ Remote AS 65001
+  Read 28722942 messages (210718856 bytes) in 14821529 calls (time spent: 214.724 secs)
+  Read partly throttled 0 times
+  Max socket read size: 4096 bytes
+  Actives 1, Failed Post Actives 0, Passives 2, Rejected Passives 0
+  Allow Active Close
+  Processed 28009347 inbound update messages (time spent: 1079.906 secs)
+  Wrote 61508741 bytes in 2030099 calls (time spent: 0.058 secs)
+  Processing sub-group: wrote 142571 messages in 16796230 calls (time spent: 0.115 secs)
+  Processing write queue: wrote 53 messages in 16745805 calls (time spent: 0.000 secs)
+
+  Received 28722942 messages, 0 notifications, 0 in queue
+  Sent 2147383 messages, 2 notifications, 0 in queue
+  NSR State: NSR Ready
+  NSR Scoped Sync Count: 2
+  NSR Scoped Sync Last: 2y29w
+  NSR Statistics:
+    First standby offset 843735780, First standby PDU offset 843735780
+    Read 3894040075 cumulative bytes, socket total bytes 3894040075
+    Read 3881335641 cumulative update bytes
+    Wrote 46679111 cumulative bytes (write thread)
+    Last Sent SN 46750665, Last Ackd SN 46750646
+  Nbr Primary fd:146 Reset flags:0x3fef Sync flags:0x12 Nbr-flags:0x40314060 Rst retries:0
+
+ For Address Family: VPNv4 Unicast
+  Message statistics:
+    Update messages processed: 142573
+    Update messages sent: 142571
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+ For Address Family: IPv4 MDT
+  Message statistics:
+    Update messages processed: 0
+    Update messages sent: 0
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+BGP neighbor is 10.99.255.93
+ Remote AS 65001
+  Read 28740202 messages (211911145 bytes) in 14831363 calls (time spent: 216.453 secs)
+  Read partly throttled 0 times
+  Max socket read size: 4096 bytes
+  Actives 1, Failed Post Actives 1, Passives 4, Rejected Passives 0
+  Allow Active Close
+  Processed 28026447 inbound update messages (time spent: 1087.868 secs)
+  Wrote 61486635 bytes in 2030096 calls (time spent: 0.152 secs)
+  Processing sub-group: wrote 142469 messages in 16810550 calls (time spent: 0.170 secs)
+  Processing write queue: wrote 51 messages in 16760149 calls (time spent: 0.000 secs)
+
+  Received 28740202 messages, 0 notifications, 0 in queue
+  Sent 2147279 messages, 2 notifications, 0 in queue
+  NSR State: NSR Ready
+  NSR Scoped Sync Count: 2
+  NSR Scoped Sync Last: 2y29w
+  NSR Statistics:
+    First standby offset 844448735, First standby PDU offset 844448735
+    Read 3895524866 cumulative bytes, socket total bytes 3895524866
+    Read 3882818532 cumulative update bytes
+    Wrote 46679111 cumulative bytes (write thread)
+    Last Sent SN 46750665, Last Ackd SN 46750646
+  Nbr Primary fd:148 Reset flags:0x3fef Sync flags:0x12 Nbr-flags:0x40314060 Rst retries:0
+
+ For Address Family: VPNv4 Unicast
+  Message statistics:
+    Update messages processed: 142471
+    Update messages sent: 142469
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+ For Address Family: IPv4 MDT
+  Message statistics:
+    Update messages processed: 0
+    Update messages sent: 0
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+BGP neighbor is 10.99.255.94
+ Remote AS 65001
+  Read 71413302 messages (2893123566 bytes) in 19331099 calls (time spent: 728.899 secs)
+  Read partly throttled 0 times
+  Max socket read size: 4096 bytes
+  Actives 1380, Failed Post Actives 0, Passives 4, Rejected Passives 0
+  Allow Active Close
+  Processed 71355527 inbound update messages (time spent: 3155.966 secs)
+  Wrote 11903122 bytes in 515108 calls (time spent: 0.016 secs)
+  Processing sub-group: wrote 13437 messages in 59262792 calls (time spent: 0.028 secs)
+  Processing write queue: wrote 56 messages in 19791207 calls (time spent: 0.000 secs)
+
+  Received 71413302 messages, 1 notifications, 0 in queue
+  Sent 525145 messages, 0 notifications, 0 in queue
+  NSR State: NSR Ready
+  NSR Scoped Sync Count: 2
+  NSR Scoped Sync Last: 36w5d
+  NSR Statistics:
+    First standby offset 136, First standby PDU offset 136
+    Read 1917857822 cumulative bytes, socket total bytes 1917857822
+    Read 1917857496 cumulative update bytes
+    Wrote 3141464 cumulative bytes (write thread)
+    Last Sent SN 3213018, Last Ackd SN 3212999
+  Nbr Primary fd:147 Reset flags:0x3fef Sync flags:0x12 Nbr-flags:0x40310060 Rst retries:0
+
+ For Address Family: VPNv4 Unicast
+  Message statistics:
+    Update messages processed: 13140
+    Update messages sent: 13062
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+ For Address Family: VPNv6 Unicast
+  Message statistics:
+    Update messages processed: 188
+    Update messages sent: 174
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+ For Address Family: IPv4 MVPN
+  Message statistics:
+    Update messages processed: 202
+    Update messages sent: 201
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+BGP neighbor is 10.99.255.95
+ Remote AS 65001
+  Read 68598543 messages (2635975639 bytes) in 17940384 calls (time spent: 281.840 secs)
+  Read partly throttled 0 times
+  Max socket read size: 4096 bytes
+  Actives 0, Failed Post Actives 0, Passives 3, Rejected Passives 0
+  Allow Active Close
+  Processed 68598512 inbound update messages (time spent: 3474.738 secs)
+  Wrote 7623137 bytes in 383485 calls (time spent: 0.020 secs)
+  Processing sub-group: wrote 2456 messages in 54812805 calls (time spent: 0.003 secs)
+  Processing write queue: wrote 39 messages in 18270187 calls (time spent: 0.000 secs)
+
+  Received 68598543 messages, 0 notifications, 0 in queue
+  Sent 384761 messages, 0 notifications, 0 in queue
+  NSR State: NSR Ready
+  NSR Scoped Sync Count: 1
+  NSR Scoped Sync Last: 37w6d
+  NSR Statistics:
+    First standby offset 136, First standby PDU offset 136
+    Read 1855553593 cumulative bytes, socket total bytes 1855553593
+    Read 1855553210 cumulative update bytes
+    Wrote 3141654 cumulative bytes (write thread)
+    Last Sent SN 3213208, Last Ackd SN 3213189
+  Nbr Primary fd:165 Reset flags:0x3fef Sync flags:0x12 Nbr-flags:0x40310060 Rst retries:0
+
+ For Address Family: VPNv4 Unicast
+  Message statistics:
+    Update messages processed: 2234
+    Update messages sent: 2232
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+ For Address Family: VPNv6 Unicast
+  Message statistics:
+    Update messages processed: 90
+    Update messages sent: 90
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+
+ For Address Family: IPv4 MVPN
+  Message statistics:
+    Update messages processed: 135
+    Update messages sent: 134
+    Split-horizon Advertisement messages: sent 0, blocked 0
+    Split-horizon Withdraw messages: sent 0, blocked 0
+RP/0/RSP0/CPU0:nV_JUAREZ_BACKBONE_DD# 
+
+

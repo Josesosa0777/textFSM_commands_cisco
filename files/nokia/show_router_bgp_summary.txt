@@ -1,0 +1,357 @@
+===============================================================================
+ BGP Router ID:10.190.1.78      AS:65000       Local AS:65000      
+===============================================================================
+BGP Admin State         : Up          BGP Oper State              : Up
+Total Peer Groups       : 3           Total Peers                 : 61        
+Total VPN Peer Groups   : 0           Total VPN Peers             : 0         
+Total BGP Paths         : 110437      Total Path Memory           : 41544370  
+ 
+Total IPv4 Remote Rts   : 0           Total IPv4 Rem. Active Rts  : 0         
+Total IPv6 Remote Rts   : 0           Total IPv6 Rem. Active Rts  : 0         
+Total IPv4 Backup Rts   : 0           Total IPv6 Backup Rts       : 0         
+Total LblIpv4 Rem Rts   : 27083       Total LblIpv4 Rem. Act Rts  : 4426      
+Total LblIpv6 Rem Rts   : 0           Total LblIpv6 Rem. Act Rts  : 0         
+Total LblIpv4 Bkp Rts   : 3506        Total LblIpv6 Bkp Rts       : 0          
+Total Supressed Rts     : 0           Total Hist. Rts             : 0         
+Total Decay Rts         : 0         
+ 
+Total VPN-IPv4 Rem. Rts : 778378      Total VPN-IPv4 Rem. Act. Rts: 89729     
+Total VPN-IPv6 Rem. Rts : 834         Total VPN-IPv6 Rem. Act. Rts: 0         
+Total VPN-IPv4 Bkup Rts : 22303       Total VPN-IPv6 Bkup Rts     : 0         
+Total VPN Local Rts     : 48          Total VPN Supp. Rts         : 0         
+Total VPN Hist. Rts     : 0           Total VPN Decay Rts         : 0         
+ 
+Total MVPN-IPv4 Rem Rts : 114         Total MVPN-IPv4 Rem Act Rts : 0         
+Total MVPN-IPv6 Rem Rts : 0           Total MVPN-IPv6 Rem Act Rts : 0         
+Total MDT-SAFI Rem Rts  : 0           Total MDT-SAFI Rem Act Rts  : 0         
+Total McIPv4 Remote Rts : 1422        Total McIPv4 Rem. Active Rts: 473       
+Total McIPv6 Remote Rts : 0           Total McIPv6 Rem. Active Rts: 0         
+Total McVpnIPv4 Rem Rts : 0           Total McVpnIPv4 Rem Act Rts : 0         
+Total McVpnIPv6 Rem Rts : 0           Total McVpnIPv6 Rem Act Rts : 0         
+ 
+Total EVPN Rem Rts      : 0           Total EVPN Rem Act Rts      : 0         
+Total L2-VPN Rem. Rts   : 0           Total L2VPN Rem. Act. Rts   : 0         
+Total MSPW Rem Rts      : 0           Total MSPW Rem Act Rts      : 0         
+Total RouteTgt Rem Rts  : 2263        Total RouteTgt Rem Act Rts  : 2263      
+Total FlowIpv4 Rem Rts  : 0           Total FlowIpv4 Rem Act Rts  : 0         
+Total FlowIpv6 Rem Rts  : 0           Total FlowIpv6 Rem Act Rts  : 0         
+Total Link State Rem Rts: 0           Total Link State Rem Act Rts: 0         
+Total SrPlcyIpv4 Rem Rts: 0           Total SrPlcyIpv4 Rem Act Rts: 0         
+Total SrPlcyIpv6 Rem Rts: 0           Total SrPlcyIpv6 Rem Act Rts: 0         
+
+===============================================================================
+BGP Summary
+===============================================================================
+Legend : D - Dynamic Neighbor
+===============================================================================
+Neighbor
+Description
+                   AS PktRcvd InQ  Up/Down   State|Rcv/Act/Sent (Addr Family)
+                      PktSent OutQ
+-------------------------------------------------------------------------------
+10.190.1.51
+MONTER-NVL4038-CB
+               65000  106596*    0 0175d15h  259198/89437/817 (VpnIPv4)
+                       519884    0           474/472/1 (MCastIPv4)
+                                             278/0/0 (VpnIPv6)
+                                             38/0/0 (MvpnIPv4)
+                                             0/0/0 (Evpn)
+                                             9012/4404/297 (Lbl-IPv4)
+10.190.1.124
+TAMMTX-TAMREP011-CA
+               65000  112052*    0 0175d15h  259198/0/817 (VpnIPv4)
+                       519957    0           474/0/1 (MCastIPv4)
+                                             278/0/0 (VpnIPv6)
+                                             38/0/0 (MvpnIPv4)
+                                             0/0/0 (Evpn)
+                                             9012/17/297 (Lbl-IPv4)
+10.190.3.50
+TOLBUE-MEX9295-CA
+               65000  111680*    0 0175d15h  259198/99/817 (VpnIPv4)
+                       519917    0           474/1/1 (MCastIPv4)
+                                             278/0/0 (VpnIPv6)
+                                             38/0/0 (MvpnIPv4)
+                                             0/0/0 (Evpn)
+                                             9013/5/297 (Lbl-IPv4)
+10.224.75.6
+To-MXNLEAPO0509RTBHCSRMOB01
+               65000     1026    0 07h24m00s 105/42/11690 (VpnIPv4)
+                         4402    0           49/49/114 (RouteTarget)
+                                             1/0/978 (Lbl-IPv4)
+10.224.75.7
+To-MXNLEAPO0513RTBHPAGMOB01
+               65000    14785    0 04d16h56m 19/3/11453 (VpnIPv4)
+                        19565    0           48/48/114 (RouteTarget)
+                                             1/0/978 (Lbl-IPv4)
+10.240.97.31
+To-MXNLEAPO0521RTBHCSRMOB01
+               65000    91577    0 29d03h37m 10/3/11453 (VpnIPv4)
+                       119594    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.32
+To-MXNLEAPO0510RTBHCSRMOB01
+               65000        0    0 0175d15h  Connect
+                            0    0           
+10.240.97.33
+To-MXNLEAPO1383RTBHCSRMOB01
+               65000   551707    0 0175d15h  16/3/11453 (VpnIPv4)
+                       761619    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.34
+To-MXNLEAPO0512RTBHCSRMOB01
+               65000   551609    0 0175d15h  10/3/11453 (VpnIPv4)
+                       760477    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.35
+To-MXNLEGDP1442RTBHCSRMOB01
+               65000    91564    0 29d03h37m 16/3/11453 (VpnIPv4)
+                       119533    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.36
+To-MXNLEAPO0534RTBHCSRMOB01
+               65000    91566    0 29d03h37m 16/3/11453 (VpnIPv4)
+                       119596    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.37
+To-MXNLEAPO0523RTBHCSRMOB01
+               65000    91579    0 29d03h37m 10/3/11453 (VpnIPv4)
+                       119641    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.38
+To-MXNLEAPO0516RTBHCSRMOB01
+               65000    91585    0 29d03h37m 10/3/11453 (VpnIPv4)
+                       119696    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.39
+To-MXNLEAPO1390RTBHCSRMOB01
+               65000    91614    0 29d03h37m 16/3/11453 (VpnIPv4)
+                       119604    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.40
+To-MXNLEAPO0540RTBHCSRMOB01
+               65000    91606    0 29d03h49m 44/9/11453 (VpnIPv4)
+                       119828    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.41
+To-MXNLESNG1570RTBHCSRMOB01
+               65000   195076    0 62d02h12m 16/3/11453 (VpnIPv4)
+                       250391    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.42
+To-MXNLEAPO1394RTBHCSRMOB01
+               65000   194970    0 62d02h12m 16/3/11453 (VpnIPv4)
+                       250198    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.43
+To-MXNLEAPO0533RTBHCSRMOB01
+               65000   194993    0 62d02h11m 8/2/11453 (VpnIPv4)
+                       250558    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.44
+To-MXNLEAPO1385RTBHCSRMOB01
+               65000   195035    0 62d02h11m 16/3/11453 (VpnIPv4)
+                       250226    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.45
+To-MXNLEAPO1384RTBHCSRMOB01
+               65000        0    0 0175d15h  Active
+                            0    0           
+10.240.97.46
+To-MXNLEAPO0541RTBHCSRMOB01
+               65000   194991    0 62d02h11m 16/3/11453 (VpnIPv4)
+                       250300    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.47
+To-MXNLEAPO1382RTBHCSRMOB01
+               65000   195043    0 62d02h11m 14/3/11453 (VpnIPv4)
+                       250364    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.48
+To-MXNLEAPO1389RTBHCSRMOB01
+               65000   195011    0 62d02h11m 16/3/11453 (VpnIPv4)
+                       250497    0           50/50/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.49
+To-MXNLEAPO0546RTBHCSRMOB01
+               65000   195002    0 62d02h00m 10/3/11453 (VpnIPv4)
+                       250508    0           50/50/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.50
+To-MXNLEAPO0531RTBHCSRMOB01
+               65000   519174    0 0165d06h  10/3/11453 (VpnIPv4)
+                       721924    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.51
+To-MXNLESNG0958RTBHCSRMOB01
+               65000        0    0 53d05h43m Connect
+                            0    0           
+10.240.97.52
+To-MXNLEAPO0544RTBHCSRMOB01
+               65000   167132    0 53d04h45m 16/3/11453 (VpnIPv4)
+                       213465    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.53
+To-MXNLEAPO0545RTBHCSRMOB01
+               65000   167143    0 53d04h45m 16/3/11453 (VpnIPv4)
+                       213692    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.54
+To-MXNLEAPO0511RTBHCSRMOB01
+               65000   167056    0 53d04h45m 10/3/11453 (VpnIPv4)
+                       213588    0           50/50/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.55
+To-MXNLEAPO0547RTBHCSRMOB01
+               65000   167064    0 53d04h45m 16/3/11453 (VpnIPv4)
+                       213707    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.56
+To-MXNLEAPO0509RTBHCSRMOB03
+               65000        0    0 0175d15h  Active
+                            0    0           
+10.240.97.57
+To-MXNLEAPO1396RTBHCSRMOB01
+               65000        0    0 0175d15h  Connect
+                            0    0           
+10.240.97.58                          
+To-MXNLEAPO0527RTBHCSRMOB01
+               65000   551602    0 0175d15h  10/3/11453 (VpnIPv4)
+                       763076    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.59
+To-MXNLEAPO1392RTBHCSRMOB01
+               65000    18607    0 05d21h59m 19/3/11453 (VpnIPv4)
+                        24698    0           48/48/114 (RouteTarget)
+                                             0/0/980 (Lbl-IPv4)
+10.240.97.60
+To-MXNLEAPO0543RTBHCSRMOB01
+               65000    19026    0 06d01h13m 14/3/11453 (VpnIPv4)
+                        25807    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.81
+To-MXNLEAPO0530RTBHCSRMOB01
+               65000   115808    0 36d21h07m 10/3/11453 (VpnIPv4)
+                       155841    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.82
+To-MXNLEAPO1398RTBHCSRMOB01
+               65000       87    0 00h34m27s 16/3/11453 (VpnIPv4)
+                         3120    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.83
+To-MXNLEAPO0536RTBHCSRMOB01
+               65000       86    0 00h34m27s 16/3/11453 (VpnIPv4)
+                         3121    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.84
+To-MXNLEAPO1395RTBHCSRMOB01
+               65000       86    0 00h34m33s 16/3/11453 (VpnIPv4)
+                         3128    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.85
+To-MXNLEAPO0548RTBHCSRMOB01
+               65000       86    0 00h34m28s 16/3/11453 (VpnIPv4)
+                         3127    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.86
+To-MXNLEAPO0518RTBHCSRMOB01
+               65000       86    0 00h34m33s 10/3/11453 (VpnIPv4)
+                         3123    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.87
+To-MXNLEAPO0515RTBHCSRMOB01
+               65000       86    0 00h34m33s 10/3/11453 (VpnIPv4)
+                         3130    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.88
+To-MXNLEGEZ1471RTBHCSRMOB01
+               65000       87    0 00h34m28s 16/3/11453 (VpnIPv4)
+                         3122    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.89
+To-MXNLEGEE0678RTBHCSRMOB01
+               65000    87988    0 28d00h16m 26/6/11453 (VpnIPv4)
+                       115337    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.90
+To-MXNLEGEE0666RTBHCSRMOB01
+               65000   217007    0 69d01h52m 10/3/11453 (VpnIPv4)
+                       320387    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.91
+To-MXNLEGEE1462RTBHCSRMOB01
+               65000   173606    0 55d06h15m 10/3/11453 (VpnIPv4)
+                       220226    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.92
+To-MXNLEGEE0673RTBHCSRMOB01
+               65000   194101    0 61d19h17m 22/4/11453 (VpnIPv4)
+                       249236    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.93
+To-MXNLEAPO0508RTBHCSRMOB01
+               65000    13027    0 04d03h24m 26/6/11453 (VpnIPv4)
+                        17339    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.94
+To-MXNLEAPO1391RTBHCSRMOB01
+               65000        0    0 0175d15h  Active
+                            0    0           
+10.240.97.95
+To-MXNLEAPO0517RTBHCSRMOB01
+               65000        0    0 0175d15h  Connect
+                            0    0           
+10.240.97.96
+To-MXNLEAPO0520RTBHCSRMOB01
+               65000   551653    0 0175d15h  10/3/11453 (VpnIPv4)
+                       761047    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.97
+To-MXNLEAPO1399RTBHCSRMOB01
+               65000   551683    0 0175d15h  16/3/11453 (VpnIPv4)
+                       760889    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.98
+To-MXNLEAPO0525RTBHCSRMOB01
+               65000   551687    0 0175d15h  10/3/11453 (VpnIPv4)
+                       760392    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.99
+To-MXNLEAPO0526RTBHCSRMOB01
+               65000   551653    0 0175d15h  8/2/11453 (VpnIPv4)
+                       762594    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.100                         
+To-MXNLEGEE0655RTBHCSRMOB01
+               65000   551710    0 0175d15h  11/4/11453 (VpnIPv4)
+                       761751    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.101
+To-MXNLESLV1564RTBHCSRMOB01
+               65000        0    0 01h12m42s Connect
+                            0    0           
+10.240.97.102
+To-MXNLESLV0952RTBHCSRMOB01
+               65000        0    0 01h12m42s Connect
+                            0    0           
+10.240.97.103
+To-MXNLESLV0956RTBHCSRMOB01
+               65000        0    0 01h12m42s Connect
+                            0    0           
+10.240.97.104
+To-MXNLEGEE0677RTBHCSRMOB01
+               65000   551628    0 0175d15h  16/3/11453 (VpnIPv4)
+                       761411    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.105
+To-MXNLEGEE0660RTBHCSRMOB01
+               65000   551688    0 0175d15h  14/4/11453 (VpnIPv4)
+                       762158    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.108.2
+To-MXNLEAPO0539RTBHCSRMOB01
+               65000        0    0 0154d16h  Idle (Shutdown)
+                            0    0           
+-------------------------------------------------------------------------------
+* indicates that the corresponding row element may have been truncated.
+

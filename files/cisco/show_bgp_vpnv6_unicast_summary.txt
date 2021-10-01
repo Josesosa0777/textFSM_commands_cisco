@@ -1,0 +1,29 @@
+RP/0/RP0/CPU0:MXTOLM01vRRS01RR01#show bgp vpnv6 unicast summary 
+Wed Sep 29 17:21:15.050 CDT
+BGP router identifier 10.240.60.84, local AS number 65000
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0x0   RD version: 0
+BGP main routing table version 4198
+BGP NSR Initial initsync version 27 (Reached)
+BGP NSR/ISSU Sync-Group versions 0/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker            4198       4198       4198       4198        4198           0
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+10.190.1.50       0 65000 3870049  938506     4198    0    0     8w1d        252
+10.190.3.51       0 65000 4170776  938542     4198    0    0     8w1d        252
+10.190.116.130    0 65000  230919 8170776        0    0    0    11w2d  (NoNeg)
+10.190.116.131    0 65000  230915 8170776        0    0    0    11w2d  (NoNeg)
+10.190.118.128    0 65000   86442 3636878        0    0    0     3w6d  (NoNeg)
+10.190.118.129    0 65000   83391 3426297        0    0    0     4w0d  (NoNeg)
+10.190.126.2      0 65000  119220 8170847     4198    0    0    11w2d         13
+10.190.126.3      0 65000  118797 8170847     4198    0    0    11w2d         13
+10.240.60.83      0 65000  114585  841625        0    0    0    10w0d  (NoNeg)
+10.240.60.85      0 65000  114591  835198        0    0    0    11w2d  (NoNeg)

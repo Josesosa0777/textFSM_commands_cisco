@@ -1,0 +1,10 @@
+# Carry down the local end information so that it is present on each row item.
+Value Neighbor (\d+(\.\d+){3})
+Value Spk (\S+)
+Value AS (\S+)
+Value Description (.*)
+Value Up_Down (\S+)
+Value NBRState (\S+)
+
+Start
+ ^${Neighbor}\s+${Spk}\s+${AS}\s+${Description}\s+${Up_Down}\s+${NBRState} -> Record

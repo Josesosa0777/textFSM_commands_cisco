@@ -1,0 +1,11 @@
+# Carry down the local end information so that it is present on each row item.
+Value Filldown RouterID (\S+)
+Value Required RemoteIP (\d+(\.\d+){3})
+
+
+Start
+  ^BGP router identifier ${RouterID},
+  ^${RemoteIP}\s -> Record
+
+# Last record is already recorded then skip doing so here.
+EOF

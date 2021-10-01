@@ -1,0 +1,28 @@
+Value Filldown BGP_Router (\d+\.\d+\.\d+\.\d+|[0-9a-f:]*)
+Value Filldown AS (\d+)
+Value Filldown BGP_Adm_State (\S+)
+Value Filldown BGP_Oper_State (\S+)
+Value Vecino_IP (\d+\.\d+\.\d+\.\d+|[0-9a-f:]*)
+Value Vecino_Desc ((?!-+)[A-Z,a-z,0-9,-]+)
+Value Vecino_AS (\d+)
+Value Vecino_PktRcvd (\d+)
+Value Vecino_InQ (\d+)
+Value Vecino_Up_Down (\S+)
+Value Vecino_PktSent (\d+)
+Value Vecino_OutQ (\d+)
+Value Vecino_state (Connect|Active|Idle)
+Value List Add_Fam_Rcv (\d+)
+Value List Add_Fam_Act (\d+)
+Value List Add_Fam_Sent (\d+)
+Value List Add_Fam_Name (\S+)
+
+Start
+ ^\s+BGP Router ID:${BGP_Router}\s+AS:${AS}\s
+ ^BGP Admin State\s+: ${BGP_Adm_State}\s+BGP Oper State\s+: ${BGP_Oper_State}
+ ^-+ -> Vecinos
+
+Vecinos
+ ^${Vecino_IP}\s*$$
+ ^(?!\d)${Vecino_Desc}\s*$$
+ ^              \s+${Vecino_AS}\s+${Vecino_PktRcvd}.\s+${Vecino_InQ}\s+${Vecino_Up_Down}\s+(${Vecino_state}|${Add_Fam_Rcv}/${Add_Fam_Act}/${Add_Fam_Sent}\s+\(${Add_Fam_Name}\))\s*$$
+ ^              \s+${Vecino_PktSent}\s+${Vecino_OutQ}\s+${Add_Fam_Rcv}/${Add_Fam_Act}/${Add_Fam_Sent}\s+\(${Add_Fam_Name}\)\s*$$ -> Record Vecinos

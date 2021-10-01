@@ -1,0 +1,272 @@
+A:APODAC-NVL4069-GA# show router bgp group detail 
+
+===============================================================================
+BGP Group  (detail)
+===============================================================================
+Group            : CSR-BH
+Description      : To-CSR-BH
+Group Type       : Internal             State            : Up
+Peer AS          : 65000                Local AS         : 65000
+Local Address    : n/a                  Loop Detect      : Discard
+Connect Retry    : 120                  Authentication   : None
+Local Pref       : 100                  MED Out          : 0
+Multihop         : 0 (Default)          AS Override      : Disabled
+Min Route Advt.  : 5                    
+Passive          : Disabled             
+Next Hop Self    : Enabled              Aggregator ID 0  : Disabled
+Remove Private   : Disabled             Damping          : Disabled
+Import Policy    : FROM-CSR
+                 : Default Accept
+Export Policy    : TO-CSR
+                 : Default Accept
+Hold Time        : 90                   Keep Alive       : 30
+Min Hold Time    : 0                    
+Cluster Id       : 10.190.1.78          Client Reflect   : Enabled
+NLRI             : Unicast              Preference       : 170
+TTL Security     : Disabled             Min TTL Value    : n/a
+Graceful Restart : Disabled             Stale Routes Time: n/a
+Restart Time     : n/a                  
+Auth key chain   : n/a                  
+Bfd Enabled      : Enabled              Disable Cap Nego : Disabled
+Creation Origin  : manual               
+Default Route Tgt: Enabled              
+Aigp Metric      : Disabled             
+Split Horizon    : Disabled             
+Damp Peer Oscill*: Disabled             
+GR Notification  : Disabled             Fault Tolerance  : Disabled
+Next-Hop Unchang*: n/a
+Routes Resolve T*: Disabled             
+ 
+List of Static Peers
+- 10.240.97.31 :
+    To-MXNLEAPO0521RTBHCSRMOB01
+- 10.240.97.32 :
+    To-MXNLEAPO0510RTBHCSRMOB01
+- 10.240.97.33 :
+    To-MXNLEAPO1383RTBHCSRMOB01
+- 10.240.97.34 :                      
+    To-MXNLEAPO0512RTBHCSRMOB01
+- 10.240.97.35 :
+    To-MXNLEGDP1442RTBHCSRMOB01
+- 10.240.97.36 :
+    To-MXNLEAPO0534RTBHCSRMOB01
+- 10.240.97.37 :
+    To-MXNLEAPO0523RTBHCSRMOB01
+- 10.240.97.38 :
+    To-MXNLEAPO0516RTBHCSRMOB01
+- 10.240.97.39 :
+    To-MXNLEAPO1390RTBHCSRMOB01
+- 10.240.97.40 :
+    To-MXNLEAPO0540RTBHCSRMOB01
+- 10.240.97.41 :
+    To-MXNLESNG1570RTBHCSRMOB01
+- 10.240.97.42 :
+    To-MXNLEAPO1394RTBHCSRMOB01
+- 10.240.97.43 :
+    To-MXNLEAPO0533RTBHCSRMOB01
+- 10.240.97.44 :
+    To-MXNLEAPO1385RTBHCSRMOB01
+- 10.240.97.45 :                      
+    To-MXNLEAPO1384RTBHCSRMOB01
+- 10.240.97.46 :
+    To-MXNLEAPO0541RTBHCSRMOB01
+- 10.240.97.47 :
+    To-MXNLEAPO1382RTBHCSRMOB01
+- 10.240.97.48 :
+    To-MXNLEAPO1389RTBHCSRMOB01
+- 10.240.97.49 :
+    To-MXNLEAPO0546RTBHCSRMOB01
+- 10.240.97.50 :
+    To-MXNLEAPO0531RTBHCSRMOB01
+- 10.240.97.51 :
+    To-MXNLESNG0958RTBHCSRMOB01
+- 10.240.97.52 :
+    To-MXNLEAPO0544RTBHCSRMOB01
+- 10.240.97.53 :
+    To-MXNLEAPO0545RTBHCSRMOB01
+- 10.240.97.54 :
+    To-MXNLEAPO0511RTBHCSRMOB01
+- 10.240.97.55 :
+    To-MXNLEAPO0547RTBHCSRMOB01
+- 10.240.97.56 :                      
+    To-MXNLEAPO0509RTBHCSRMOB03
+- 10.240.97.57 :
+    To-MXNLEAPO1396RTBHCSRMOB01
+- 10.240.97.58 :
+    To-MXNLEAPO0527RTBHCSRMOB01
+- 10.240.97.59 :
+    To-MXNLEAPO1392RTBHCSRMOB01
+- 10.240.97.60 :
+    To-MXNLEAPO0543RTBHCSRMOB01
+- 10.240.97.81 :
+    To-MXNLEAPO0530RTBHCSRMOB01
+- 10.240.97.82 :
+    To-MXNLEAPO1398RTBHCSRMOB01
+- 10.240.97.83 :
+    To-MXNLEAPO0536RTBHCSRMOB01
+- 10.240.97.84 :
+    To-MXNLEAPO1395RTBHCSRMOB01
+- 10.240.97.85 :
+    To-MXNLEAPO0548RTBHCSRMOB01
+- 10.240.97.86 :
+    To-MXNLEAPO0518RTBHCSRMOB01
+- 10.240.97.87 :                      
+    To-MXNLEAPO0515RTBHCSRMOB01
+- 10.240.97.88 :
+    To-MXNLEGEZ1471RTBHCSRMOB01
+- 10.240.97.89 :
+    To-MXNLEGEE0678RTBHCSRMOB01
+- 10.240.97.90 :
+    To-MXNLEGEE0666RTBHCSRMOB01
+- 10.240.97.91 :
+    To-MXNLEGEE1462RTBHCSRMOB01
+- 10.240.97.92 :
+    To-MXNLEGEE0673RTBHCSRMOB01
+- 10.240.97.93 :
+    To-MXNLEAPO0508RTBHCSRMOB01
+- 10.240.97.94 :
+    To-MXNLEAPO1391RTBHCSRMOB01
+- 10.240.97.95 :
+    To-MXNLEAPO0517RTBHCSRMOB01
+- 10.240.97.96 :
+    To-MXNLEAPO0520RTBHCSRMOB01
+- 10.240.97.97 :
+    To-MXNLEAPO1399RTBHCSRMOB01
+- 10.240.97.98 :                      
+    To-MXNLEAPO0525RTBHCSRMOB01
+- 10.240.97.99 :
+    To-MXNLEAPO0526RTBHCSRMOB01
+- 10.240.97.100 :
+    To-MXNLEGEE0655RTBHCSRMOB01
+- 10.240.97.101 :
+    To-MXNLESLV1564RTBHCSRMOB01
+- 10.240.97.102 :
+    To-MXNLESLV0952RTBHCSRMOB01
+- 10.240.97.103 :
+    To-MXNLESLV0956RTBHCSRMOB01
+- 10.240.97.104 :
+    To-MXNLEGEE0677RTBHCSRMOB01
+- 10.240.97.105 :
+    To-MXNLEGEE0660RTBHCSRMOB01
+- 10.240.108.2 :
+    To-MXNLEAPO0539RTBHCSRMOB01
+ 
+List of Dynamic Peers
+ 
+Total Peers      : 56                   Established      : 48
+                                      
+===============================================================================
+Prefix Limits Per Address Family
+===============================================================================
+Family         Limit          Idle Timeout   Threshold Log Only  Post Import
+-------------------------------------------------------------------------------
+No prefix-limit entries configured
+===============================================================================
+Group            : PAG-BH
+Description      : To-PAG-BH-Dual_Homed
+Group Type       : Internal             State            : Up
+Peer AS          : 65000                Local AS         : 65000
+Local Address    : n/a                  Loop Detect      : Discard
+Connect Retry    : 120                  Authentication   : None
+Local Pref       : 100                  MED Out          : 0
+Multihop         : 0 (Default)          AS Override      : Disabled
+Min Route Advt.  : 5                    
+Passive          : Disabled             
+Next Hop Self    : Enabled              Aggregator ID 0  : Disabled
+Remove Private   : Disabled             Damping          : Disabled
+Import Policy    : FROM-PAG-BH
+                 : Default Accept
+Export Policy    : TO-PAG             
+                 : Default Accept
+Hold Time        : 90                   Keep Alive       : 30
+Min Hold Time    : 0                    
+Cluster Id       : 10.190.1.78          Client Reflect   : Enabled
+NLRI             : Unicast              Preference       : 170
+TTL Security     : Disabled             Min TTL Value    : n/a
+Graceful Restart : Disabled             Stale Routes Time: n/a
+Restart Time     : n/a                  
+Auth key chain   : n/a                  
+Bfd Enabled      : Enabled              Disable Cap Nego : Disabled
+Creation Origin  : manual               
+Default Route Tgt: Enabled              
+Aigp Metric      : Disabled             
+Split Horizon    : Disabled             
+Damp Peer Oscill*: Disabled             
+GR Notification  : Disabled             Fault Tolerance  : Disabled
+Next-Hop Unchang*: n/a
+Routes Resolve T*: Disabled             
+ 
+List of Static Peers
+- 10.224.75.6 :
+    To-MXNLEAPO0509RTBHCSRMOB01       
+- 10.224.75.7 :
+    To-MXNLEAPO0513RTBHPAGMOB01
+ 
+List of Dynamic Peers
+ 
+Total Peers      : 2                    Established      : 2
+
+===============================================================================
+Prefix Limits Per Address Family
+===============================================================================
+Family         Limit          Idle Timeout   Threshold Log Only  Post Import
+-------------------------------------------------------------------------------
+No prefix-limit entries configured
+===============================================================================
+Group            : RR-REGIONAL
+Description      : Sesiones iBGP hacia RR Regionales
+Group Type       : Internal             State            : Up
+Peer AS          : 65000                Local AS         : 65000
+Local Address    : n/a                  Loop Detect      : Discard
+Connect Retry    : 120                  Authentication   : None
+Local Pref       : 100                  MED Out          : 0
+Multihop         : 0 (Default)          AS Override      : Disabled
+Min Route Advt.  : 5                    
+Passive          : Disabled             
+Next Hop Self    : Enabled              Aggregator ID 0  : Disabled
+Remove Private   : Disabled             Damping          : Disabled
+Import Policy    : None Specified - Default Accept
+Export Policy    : export-system
+                 : Default Accept
+Hold Time        : 90                   Keep Alive       : 30
+Min Hold Time    : 0                    
+Cluster Id       : None                 Client Reflect   : Enabled
+NLRI             : Unicast              Preference       : 170
+TTL Security     : Disabled             Min TTL Value    : n/a
+Graceful Restart : Disabled             Stale Routes Time: n/a
+Restart Time     : n/a                  
+Auth key chain   : n/a                  
+Bfd Enabled      : Disabled             Disable Cap Nego : Disabled
+Creation Origin  : manual               
+Default Route Tgt: Disabled             
+Aigp Metric      : Disabled             
+Split Horizon    : Disabled             
+Damp Peer Oscill*: Disabled             
+GR Notification  : Disabled             Fault Tolerance  : Disabled
+Next-Hop Unchang*: n/a
+Routes Resolve T*: Disabled             
+ 
+List of Static Peers
+- 10.190.1.51 :
+    MONTER-NVL4038-CB
+- 10.190.1.124 :
+    TAMMTX-TAMREP011-CA
+- 10.190.3.50 :
+    TOLBUE-MEX9295-CA
+ 
+List of Dynamic Peers
+ 
+Total Peers      : 3                    Established      : 3
+
+===============================================================================
+Prefix Limits Per Address Family
+===============================================================================
+Family         Limit          Idle Timeout   Threshold Log Only  Post Import
+-------------------------------------------------------------------------------
+No prefix-limit entries configured
+===============================================================================
+-------------------------------------------------------------------------------
+Peer Groups : 3
+===============================================================================
+* indicates that the corresponding row element may have been truncated.
+

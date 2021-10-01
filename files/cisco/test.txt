@@ -1,0 +1,116 @@
+===============================================================================
+ BGP Router ID:10.190.1.78      AS:65000       Local AS:65000      
+===============================================================================
+BGP Admin State         : Up          BGP Oper State              : Up
+Total Peer Groups       : 3           Total Peers                 : 61        
+Total VPN Peer Groups   : 0           Total VPN Peers             : 0         
+Total BGP Paths         : 110437      Total Path Memory           : 41544370  
+ 
+Total IPv4 Remote Rts   : 0           Total IPv4 Rem. Active Rts  : 0         
+Total IPv6 Remote Rts   : 0           Total IPv6 Rem. Active Rts  : 0         
+Total IPv4 Backup Rts   : 0           Total IPv6 Backup Rts       : 0         
+Total LblIpv4 Rem Rts   : 27083       Total LblIpv4 Rem. Act Rts  : 4426      
+Total LblIpv6 Rem Rts   : 0           Total LblIpv6 Rem. Act Rts  : 0         
+Total LblIpv4 Bkp Rts   : 3506        Total LblIpv6 Bkp Rts       : 0          
+Total Supressed Rts     : 0           Total Hist. Rts             : 0         
+Total Decay Rts         : 0         
+ 
+Total VPN-IPv4 Rem. Rts : 778378      Total VPN-IPv4 Rem. Act. Rts: 89729     
+Total VPN-IPv6 Rem. Rts : 834         Total VPN-IPv6 Rem. Act. Rts: 0         
+Total VPN-IPv4 Bkup Rts : 22303       Total VPN-IPv6 Bkup Rts     : 0         
+Total VPN Local Rts     : 48          Total VPN Supp. Rts         : 0         
+Total VPN Hist. Rts     : 0           Total VPN Decay Rts         : 0         
+ 
+Total MVPN-IPv4 Rem Rts : 114         Total MVPN-IPv4 Rem Act Rts : 0         
+Total MVPN-IPv6 Rem Rts : 0           Total MVPN-IPv6 Rem Act Rts : 0         
+Total MDT-SAFI Rem Rts  : 0           Total MDT-SAFI Rem Act Rts  : 0         
+Total McIPv4 Remote Rts : 1422        Total McIPv4 Rem. Active Rts: 473       
+Total McIPv6 Remote Rts : 0           Total McIPv6 Rem. Active Rts: 0         
+Total McVpnIPv4 Rem Rts : 0           Total McVpnIPv4 Rem Act Rts : 0         
+Total McVpnIPv6 Rem Rts : 0           Total McVpnIPv6 Rem Act Rts : 0         
+ 
+Total EVPN Rem Rts      : 0           Total EVPN Rem Act Rts      : 0         
+Total L2-VPN Rem. Rts   : 0           Total L2VPN Rem. Act. Rts   : 0         
+Total MSPW Rem Rts      : 0           Total MSPW Rem Act Rts      : 0         
+Total RouteTgt Rem Rts  : 2263        Total RouteTgt Rem Act Rts  : 2263      
+Total FlowIpv4 Rem Rts  : 0           Total FlowIpv4 Rem Act Rts  : 0         
+Total FlowIpv6 Rem Rts  : 0           Total FlowIpv6 Rem Act Rts  : 0         
+Total Link State Rem Rts: 0           Total Link State Rem Act Rts: 0         
+Total SrPlcyIpv4 Rem Rts: 0           Total SrPlcyIpv4 Rem Act Rts: 0         
+Total SrPlcyIpv6 Rem Rts: 0           Total SrPlcyIpv6 Rem Act Rts: 0         
+
+===============================================================================
+BGP Summary
+===============================================================================
+Legend : D - Dynamic Neighbor
+===============================================================================
+Neighbor
+Description
+                   AS PktRcvd InQ  Up/Down   State|Rcv/Act/Sent (Addr Family)
+                      PktSent OutQ
+-------------------------------------------------------------------------------
+10.190.1.51
+MONTER-NVL4038-CB
+               65000  106596*    0 0175d15h  259198/89437/817 (VpnIPv4)
+                       519884    0           474/472/1 (MCastIPv4)
+                                             278/0/0 (VpnIPv6)
+                                             38/0/0 (MvpnIPv4)
+                                             0/0/0 (Evpn)
+                                             9012/4404/297 (Lbl-IPv4)
+10.240.97.31
+To-MXNLEAPO0521RTBHCSRMOB01
+               65000    91577    0 29d03h37m 10/3/11453 (VpnIPv4)
+                       119594    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.32
+To-MXNLEAPO0510RTBHCSRMOB01
+               65000        0    0 0175d15h  Connect
+                            0    0           
+10.240.97.46
+To-MXNLEAPO0541RTBHCSRMOB01
+               65000   194991    0 62d02h11m 16/3/11453 (VpnIPv4)
+                       250300    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.52
+To-MXNLEAPO0544RTBHCSRMOB01
+               65000   167132    0 53d04h45m 16/3/11453 (VpnIPv4)
+                       213465    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.56
+To-MXNLEAPO0509RTBHCSRMOB03
+               65000        0    0 0175d15h  Active
+                            0    0           
+10.240.97.57
+To-MXNLEAPO1396RTBHCSRMOB01
+               65000        0    0 0175d15h  Connect
+                            0    0           
+10.240.97.58                          
+To-MXNLEAPO0527RTBHCSRMOB01
+               65000   551602    0 0175d15h  10/3/11453 (VpnIPv4)
+                       763076    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.94
+To-MXNLEAPO1391RTBHCSRMOB01
+               65000        0    0 0175d15h  Active
+                            0    0           
+10.240.97.95
+To-MXNLEAPO0517RTBHCSRMOB01
+               65000        0    0 0175d15h  Connect
+                            0    0           
+10.240.97.103
+To-MXNLESLV0956RTBHCSRMOB01
+               65000        0    0 01h12m42s Connect
+                            0    0           
+10.240.97.104
+To-MXNLEGEE0677RTBHCSRMOB01
+               65000   551628    0 0175d15h  16/3/11453 (VpnIPv4)
+                       761411    0           48/48/114 (RouteTarget)
+                                             1/0/980 (Lbl-IPv4)
+10.240.97.105
+10.240.108.2
+To-MXNLEAPO0539RTBHCSRMOB01
+               65000        0    0 0154d16h  Idle (Shutdown)
+                            0    0           
+-------------------------------------------------------------------------------
+* indicates that the corresponding row element may have been truncated.
+

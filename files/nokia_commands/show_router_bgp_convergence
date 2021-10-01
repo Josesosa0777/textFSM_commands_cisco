@@ -1,0 +1,29 @@
+A:APODAC-NVL4069-GA# show router bgp convergence 
+
+===============================================================================
+BGP IPv4 Convergence
+===============================================================================
+Min wait advertise timer                    : 0
+Established peers at min wait timer expiry  : N/A
+Current established peers                   : N/A
+First session established time              : N/A
+Last session established time               : N/A
+Max Wait advertise timer                    : 0
+Converged peers                             : N/A
+Converged state                             : N/A
+Converged time                              : N/A
+===============================================================================
+
+===============================================================================
+BGP IPv6 Convergence
+===============================================================================
+Min wait advertise timer                    : 0
+Established peers at min wait timer expiry  : N/A
+Current established peers                   : N/A
+First session established time              : N/A
+Last session established time               : N/A
+Max Wait advertise timer                    : 0
+Converged peers                             : N/A
+Converged state                             : N/A
+Converged time                              : N/A
+===============================================================================

@@ -1,0 +1,47 @@
+A:APODAC-NVL4069-GA# show router bgp group "RR-REGIONAL" 
+
+===============================================================================
+BGP Group : RR-REGIONAL
+===============================================================================
+Group            : RR-REGIONAL
+Description      : Sesiones iBGP hacia RR Regionales
+Group Type       : Internal             State            : Up
+Peer AS          : 65000                Local AS         : 65000
+Local Address    : n/a                  Loop Detect      : Discard
+Import Policy    : None Specified - Default Accept
+Export Policy    : export-system
+                 : Default Accept
+Hold Time        : 90                   Keep Alive       : 30
+Min Hold Time    : 0                    
+Cluster Id       : None                 Client Reflect   : Enabled
+NLRI             : Unicast              Preference       : 170
+TTL Security     : Disabled             Min TTL Value    : n/a
+Graceful Restart : Disabled             Stale Routes Time: n/a
+Restart Time     : n/a                  
+Auth key chain   : n/a                  
+Bfd Enabled      : Disabled             Disable Cap Nego : Disabled
+Creation Origin  : manual               
+Default Route Tgt: Disabled             
+Aigp Metric      : Disabled             
+Split Horizon    : Disabled             
+Damp Peer Oscill*: Disabled             
+GR Notification  : Disabled             Fault Tolerance  : Disabled
+Next-Hop Unchang*: n/a
+Routes Resolve T*: Disabled             
+ 
+List of Static Peers
+- 10.190.1.51 :
+    MONTER-NVL4038-CB
+- 10.190.1.124 :
+    TAMMTX-TAMREP011-CA               
+- 10.190.3.50 :
+    TOLBUE-MEX9295-CA
+ 
+List of Dynamic Peers
+ 
+Total Peers      : 3                    Established      : 3
+-------------------------------------------------------------------------------
+Peer Groups : 1
+===============================================================================
+* indicates that the corresponding row element may have been truncated.
+

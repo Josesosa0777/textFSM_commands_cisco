@@ -1,0 +1,77 @@
+# Carry down the local end information so that it is present on each row item.
+Value Filldown Neighbor (\d+(\.\d+){3})
+Value Filldown RemoteAS (\d+)
+Value ReadedMessages (\d+)
+Value ReadedMessagesBytes (\d+)
+Value Calls (\d+)
+Value ReadedMessagesTimeSpend (\S+)
+Value PartlyThrottledReaded (\d+)
+Value MaxSocketReadSize (\d+)
+Value ActivesSockets (\d+)
+Value FailsPostActivesSocket (\d+)
+Value PassivesSockets (\d+)
+Value RejectedPassivesSockets (\d+)
+Value SocketStatus ((Allow|Deny) (\S+) ((Allow |Deny )?)(\S+))
+Value InboundUpdate (\d+)
+Value InboundTimeSpend (\S+)
+Value CallsWritedBytes (d+)
+Value ProcessingSubGroup_messages (\d+)
+Value ProcessingSubGroup_calls (\d+)
+Value ProcessingSubGroup_timeSpend (\S+)
+Value ProcessingWriteGroup_messages (\S+)
+Value ProcessingWriteGroup_calls (\S+)
+Value ProcessingWriteGroup_timeSpend (\S+)
+Value ReceivedMessages (\d+)
+Value ReceivedMessages_notifications (\d+)
+Value ReceivedMessages_InQueue (\d+)
+Value SentMessages (\d+)
+Value SentMessages_notifications (\d+)
+Value SentMessages_InQueue (\d+)
+Value NSR_State ((\S+) (\S+)((\S)?))
+Value NSR_ScopedSyncCount (\d+)
+Value NSR_ScopedSyncLast (\S+)
+Value NSR_Stats_FirstStandbyOffset (\d+)
+Value NSR_Stats_FirstStandbyPDUOffset (\d+)
+Value NSR_Stats_ReadCumulativeBytes (\d+)
+Value NSR_Stats_SocketTotalBytes (\d+)
+Value NSR_Stats_CumulativeUpdateBytes(\d+)
+Value NSR_Stats_WroteUpdateBytes(\d+)
+Value NSR_Stats_LastSentSN(\d+)
+Value NSR_Stats_LastSentAckdSN(\d+)
+Value AddresFamily (\S+)
+Value UpdateMessagesProcessed (\d+)
+Value UpdateMessagesSent (\d+)
+Value SplitHorizonAdvertisementMessages_Sent (\d+)
+Value SplitHorizonAdvertisementMessages_Blocked (\d+)
+Value SplitHorizonWitdrawMessages_Sent (\d+)
+Value SplitHorizonWitdrawMessages_Block (\d+)
+
+Start
+  ^BGP neighbor is ${Neighbor}
+  ^ Remote AS ${RemoteAS}
+  ^  Read ${ReadedMessages} messages \(${ReadedMessagesBytes} bytes\) in ${Calls} calls \(time spent: ${ReadedMessagesTimeSpend} secs\)
+  ^  Read partly throttled ${PartlyThrottledReaded} times
+  ^  Max socket read size: ${MaxSocketReadSize} bytes
+  ^  Actives ${ActivesSockets}, Failed Post Actives ${FailsPostActivesSocket}, Passives ${PassivesSockets}, Rejected Passives ${RejectedPassivesSockets}
+  ^  ${SocketStatus}
+  ^  Processed ${InboundUpdate} inbound update messages \(time spent: ${InboundTimeSpend} secs\)
+  ^  Processing sub-group: wrote ${ProcessingSubGroup_messages} messages in ${ProcessingSubGroup_calls} calls \(time spent: ${ProcessingSubGroup_timeSpend} secs\)
+  ^  Processing write queue: wrote ${ProcessingWriteGroup_messages} messages in ${ProcessingWriteGroup_calls} calls \(time spent: ${ProcessingWriteGroup_timeSpend} secs\)
+  ^  Received ${ReceivedMessages} messages, ${ReceivedMessages_notifications} notifications, ${ReceivedMessages_InQueue} in queue
+  ^  Sent ${SentMessages} messages, $SentMessages_notifications notifications, ${SentMessages_InQueue} in queue
+  ^  NSR State: ${NSR_State}
+  ^  NSR Scoped Sync Count: ${NSR_ScopedSyncCount}
+  ^  NSR Scoped Sync Last: ${NSR_ScopedSyncLast}
+  ^    First standby offset ${NSR_Stats_FirstStandbyOffset}, First standby PDU offset ${NSR_Stats_FirstStandbyPDUOffset}
+  ^    Read ${NSR_Stats_ReadCumulativeBytes} cumulative bytes, socket total bytes ${NSR_Stats_SocketTotalBytes}
+  ^    Read ${NSR_Stats_CumulativeUpdateBytes} cumulative update bytes
+  ^    Wrote ${NSR_Stats_WroteUpdateBytes} cumulative bytes (write thread)
+  ^    Last Sent SN ${NSR_Stats_LastSentSN}, Last Ackd SN ${NSR_Stats_LastSentAckdSN}
+  ^ For Address Family: ${AddresFamily}
+  ^    Update messages processed: ${UpdateMessagesProcessed}
+  ^    Update messages sent: ${UpdateMessagesSent}
+  ^    Split-horizon Advertisement messages: sent ${SplitHorizonAdvertisementMessages_Sent}, blocked ${SplitHorizonAdvertisementMessages_Blocked}
+  ^    Split-horizon Withdraw messages: sent ${SplitHorizonWitdrawMessages_Sent}, blocked ${SplitHorizonWitdrawMessages_Block}
+
+# Last record is already recorded then skip doing so here.
+EOF

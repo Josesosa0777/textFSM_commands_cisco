@@ -1,0 +1,38 @@
+Thu Sep 30 13:28:52.015 CDT
+
+Neighbor        Spk    AS Description                          Up/Down  NBRState
+10.190.1.50       0 65000 MONTER-NVL4038-CA                        8w2d Established
+10.190.3.51       0 65000 TOLBUE-MEX9295-CB                        8w2d Established
+10.190.116.130    0 65000 MXCMXM02RTDCEDGE01                      11w3d Established
+10.190.116.131    0 65000 MXCMXM02RTDCEDGE02                      11w3d Established
+10.190.118.128    0 65000 MXCMXM03RTDCEDGE01                       3w6d Established
+10.190.118.129    0 65000 MXCMXM03RTDCEDGE02                       4w1d Established
+10.190.126.2      0 65000 MXTULM01RTDCEDGE01                      11w3d Established
+10.190.126.3      0 65000 MXTULM01RTDCEDGE02                      11w3d Established
+10.240.60.1       0 65000 MXTLAM02RTCORE01                        11w3d Established
+10.240.60.2       0 65000 MXTLAM02RTCORE02                        11w3d Established
+10.240.60.3       0 65000 MXDIFVEN0908RTCORE01                    11w3d Established
+10.240.60.4       0 65000 MXDIFALO0029RTCORE01                    11w3d Established
+10.240.60.5       0 65000 MXDIFALO0029RTCORE02                    11w3d Established
+10.240.60.6       0 65000 MXCMXM02RTCORE01                        11w3d Established
+10.240.60.7       0 65000 MXCMXM02RTCORE02                        11w3d Established
+10.240.60.8       0 65000 MXTLAM01RTCORE01                        11w3d Established
+10.240.60.9       0 65000 MXTLAM01RTCORE02                        11w3d Established
+10.240.60.10      0 65000 MXTOLM01RTCORE01                        11w3d Established
+10.240.60.11      0 65000 MXTOLM01RTCORE02                        11w3d Established
+10.240.60.12      0 65000 To -- MXMEXTLB0712RTAGG01               11w3d Established
+10.240.60.13      0 65000 To -- MXMEXCOB0123RTAGG01               11w3d Established
+10.240.60.14      0 65000 To -- MXMEXECA0261RTAGG01               11w3d Established
+10.240.60.15      0 65000 To -- MXMEXECA0247RTAGG01               11w3d Established
+10.240.60.16      0 65000 To -- MXMEXNEZ0428RTAGG01               11w3d Established
+10.240.60.17      0 65000 To -- MXTLAM02RTAGG01                   11w3d Established
+10.240.60.18      0 65000 To -- MXBB031RTAGG01                    11w3d Established
+10.240.60.19      0 65000 To -- MXMEXECA0243RTAGG01               11w3d Established
+10.240.60.20      0 65000 To -- MXMEXNEZ0433RTAGG01               11w2d Established
+10.240.60.21      0 65000 To -- MXDIFVEN0908RTAGG01               11w3d Established
+10.240.60.22      0 65000 To -- MXMEXCTI0163RTAGG01               11w3d Established
+10.240.60.23      0 65000 To -- MXMEXCTI0182RTAGG01               11w3d Established
+10.240.60.24      0 65000 To -- MXMEXTLB0730RTAGG01               11w3d Established
+10.240.60.25      0 65000 To -- MXMEXTLB0729RTAGG01               11w3d Established
+10.240.60.26      0 65000 To -- MXMEXTLB0719RTAGG01               11w3d Established
+10.240.60.27      0 65000 To -- MXMEXNPL0544RTAGG01               1d10h Established

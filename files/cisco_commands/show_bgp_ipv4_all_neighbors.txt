@@ -1,0 +1,451 @@
+RP/0/RSP0/CPU0:nV_JUAREZ_BACKBONE_DD#show bgp ipv4 all neighbors                        
+Thu Aug 12 14:14:24.100 MDT
+
+BGP neighbor is 10.99.255.92
+ Remote AS 65001, local AS 65001, internal link
+ Description: RR_SEVILLA_1
+ Remote router ID 10.99.255.92
+  BGP state = Established, up for 2y30w
+  NSR State: NSR Ready
+  Last read 00:00:30, Last read before reset 2y30w
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time: 180, keepalive: 60, min acceptable hold time: 3
+  Last write 00:00:38, attempted 19, written 19
+  Second last write 00:01:38, attempted 19, written 19
+  Last write before reset 2y30w, attempted 19, written 19
+  Second last write before reset 2y30w, attempted 19, written 19
+  Last write pulse rcvd  Aug 12 14:13:53.817 last full not set pulse count 16788351
+  Last write pulse rcvd before reset 2y30w
+  Socket not armed for io, armed for read, armed for write
+  Last write thread event before reset 2y30w, second last 2y30w
+  Last KA expiry before reset 2y30w, second last 2y30w
+  Last KA error before reset 00:00:00, KA not sent 00:00:00
+  Last KA start before reset 2y30w, second last 2y30w
+  Precedence: internet
+  Non-stop routing is enabled
+  Graceful restart is enabled
+  Restart time is 120 seconds
+  Stale path timeout time is 360 seconds
+  Multi-protocol capability received
+  Neighbor capabilities:
+    Route refresh: advertised (old + new) and received (old + new)
+    4-byte AS: advertised and received
+    Address family VPNv4 Unicast: advertised and received
+    Address family IPv4 MDT: advertised
+  Received 28762524 messages, 0 notifications, 0 in queue
+  Sent 2157412 messages, 2 notifications, 0 in queue
+  Minimum time between advertisement runs is 0 secs
+  Inbound message logging enabled, 3 messages buffered
+  Outbound message logging enabled, 3 messages buffered
+
+ For Address Family: VPNv4 Unicast
+  BGP neighbor version 266097285
+  Update group: 0.2 Filter-group: 0.3  No Refresh request being processed
+  NEXT_HOP is always this router
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+  Route refresh request: received 0, sent 47
+  Policy for incoming advertisements is RP-RD-MCAST-IZZI_VIDEO-SEV
+  Policy for outgoing advertisements is RP-RD-MCAST-IZZI_VIDEO-SEV
+  8876 accepted prefixes, 8865 are bestpaths
+  Cumulative no. of prefixes denied: 2596. 
+    No policy: 0, Failed RT match: 1587300
+    By ORF policy: 0, By policy: 391
+  Prefix advertised 551383, suppressed 0, withdrawn 41536
+  Maximum prefixes allowed 2097152
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was received during read-only mode
+  Last ack version 266097285, Last synced ack version 266097285
+  Outstanding version objects: current 0, max 15
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultReoriginate,disable  option
+  Advertise VPNv6 routes is enabled with defaultReoriginate, option
+
+ For Address Family: IPv4 MDT
+  BGP neighbor version 0
+  Update group: 0.2 Filter-group: 0.0  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+  Route refresh request: received 0, sent 0
+  0 accepted prefixes, 0 are bestpaths
+  Cumulative no. of prefixes denied: 0. 
+  Prefix advertised 0, suppressed 0, withdrawn 0
+  Maximum prefixes allowed 131072
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was received during read-only mode
+  Last ack version 0, Last synced ack version 0
+  Outstanding version objects: current 0, max 0
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultLocal with stitching-RT option
+  Advertise VPNv6 routes is enabled with defaultReoriginate,disable  option
+
+  Connections established 3; dropped 2
+  Local host: 10.99.3.1, Local port: 179, IF Handle: 0x00000000
+  Foreign host: 10.99.255.92, Foreign port: 50958
+  Last reset 2y30w, due to BGP Notification sent: hold time expired
+  Time since last notification sent to neighbor: 2y30w
+  Error Code: hold time expired
+  Notification data sent:
+    None
+
+BGP neighbor is 10.99.255.93
+ Remote AS 65001, local AS 65001, internal link
+ Description: RR_SEVILLA_2
+ Remote router ID 10.99.255.93
+  BGP state = Established, up for 2y30w
+  NSR State: NSR Ready
+  Last read 00:00:30, Last read before reset 2y30w
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time: 180, keepalive: 60, min acceptable hold time: 3
+  Last write 00:00:38, attempted 19, written 19
+  Second last write 00:01:38, attempted 19, written 19
+  Last write before reset 2y30w, attempted 19, written 19
+  Second last write before reset 2y30w, attempted 19, written 19
+  Last write pulse rcvd  Aug 12 14:13:53.817 last full not set pulse count 16802712
+  Last write pulse rcvd before reset 2y30w
+  Socket not armed for io, armed for read, armed for write
+  Last write thread event before reset 2y30w, second last 2y30w
+  Last KA expiry before reset 2y30w, second last 2y30w
+  Last KA error before reset 00:00:00, KA not sent 00:00:00
+  Last KA start before reset 2y30w, second last 2y30w
+  Precedence: internet
+  Non-stop routing is enabled
+  Graceful restart is enabled
+  Restart time is 120 seconds
+  Stale path timeout time is 360 seconds
+  Multi-protocol capability received
+  Neighbor capabilities:
+    Route refresh: advertised (old + new) and received (old + new)
+    4-byte AS: advertised and received
+    Address family VPNv4 Unicast: advertised and received
+    Address family IPv4 MDT: advertised
+  Received 28779741 messages, 0 notifications, 0 in queue
+  Sent 2157308 messages, 2 notifications, 0 in queue
+  Minimum time between advertisement runs is 0 secs
+  Inbound message logging enabled, 3 messages buffered
+  Outbound message logging enabled, 3 messages buffered
+
+ For Address Family: VPNv4 Unicast
+  BGP neighbor version 266097285
+  Update group: 0.2 Filter-group: 0.3  No Refresh request being processed
+  NEXT_HOP is always this router
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+  Route refresh request: received 0, sent 45
+  Policy for incoming advertisements is RP-RD-MCAST-IZZI_VIDEO-SEV
+  Policy for outgoing advertisements is RP-RD-MCAST-IZZI_VIDEO-SEV
+  8875 accepted prefixes, 5 are bestpaths
+  Cumulative no. of prefixes denied: 2597. 
+    No policy: 0, Failed RT match: 1590350
+    By ORF policy: 0, By policy: 391
+  Prefix advertised 551383, suppressed 0, withdrawn 41536
+  Maximum prefixes allowed 2097152
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was received during read-only mode
+  Last ack version 266097285, Last synced ack version 266097285
+  Outstanding version objects: current 0, max 14
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultReoriginate,disable  option
+  Advertise VPNv6 routes is enabled with defaultReoriginate, option
+
+ For Address Family: IPv4 MDT
+  BGP neighbor version 0
+  Update group: 0.2 Filter-group: 0.0  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+  Route refresh request: received 0, sent 0
+  0 accepted prefixes, 0 are bestpaths
+  Cumulative no. of prefixes denied: 0. 
+  Prefix advertised 0, suppressed 0, withdrawn 0
+  Maximum prefixes allowed 131072
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was received during read-only mode
+  Last ack version 0, Last synced ack version 0
+  Outstanding version objects: current 0, max 0
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultLocal with stitching-RT option
+  Advertise VPNv6 routes is enabled with defaultReoriginate,disable  option
+
+  Connections established 3; dropped 2
+  Local host: 10.99.3.1, Local port: 179, IF Handle: 0x00000000
+  Foreign host: 10.99.255.93, Foreign port: 25566
+  Last reset 2y30w, due to BGP Notification sent: hold time expired
+  Time since last notification sent to neighbor: 2y30w
+  Error Code: hold time expired
+  Notification data sent:
+    None
+
+BGP neighbor is 10.99.255.94
+ Remote AS 65001, local AS 65001, internal link
+ Description: R5ZAP-RR01
+ Remote router ID 10.99.255.94
+  BGP state = Established, up for 16w1d
+  NSR State: NSR Ready
+  Last read 00:00:12, Last read before reset 16w1d
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time: 180, keepalive: 60, min acceptable hold time: 3
+  Last write 00:00:32, attempted 19, written 19
+  Second last write 00:01:32, attempted 19, written 19
+  Last write before reset 16w1d, attempted 19, written 19
+  Second last write before reset 16w1d, attempted 19, written 19
+  Last write pulse rcvd  Aug 12 14:14:11.781 last full Sep 21 01:40:46.340 pulse count 19894279
+  Last write pulse rcvd before reset 16w1d
+  Socket not armed for io, armed for read, armed for write
+  Last write thread event before reset 16w1d, second last 16w1d
+  Last KA expiry before reset 16w1d, second last 16w1d
+  Last KA error before reset 00:00:00, KA not sent 00:00:00
+  Last KA start before reset 16w1d, second last 16w1d
+  Precedence: internet
+  Non-stop routing is enabled
+  Graceful restart is enabled
+  Restart time is 120 seconds
+  Stale path timeout time is 360 seconds
+  Multi-protocol capability received
+  Neighbor capabilities:
+    Route refresh: advertised (old + new) and received (old + new)
+    Graceful Restart (GR Awareness): received
+    4-byte AS: advertised and received
+    Address family VPNv4 Unicast: advertised and received
+    Address family VPNv6 Unicast: advertised and received
+    Address family IPv4 MVPN: advertised and received
+  Received 71552335 messages, 1 notifications, 0 in queue
+  Sent 535167 messages, 0 notifications, 0 in queue
+  Minimum time between advertisement runs is 0 secs
+  Inbound message logging enabled, 3 messages buffered
+  Outbound message logging enabled, 3 messages buffered
+
+ For Address Family: VPNv4 Unicast
+  BGP neighbor version 266097285
+  Update group: 0.3 Filter-group: 0.4  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+    Graceful Restart capability received
+      Remote Restart time is 120 seconds
+      Neighbor did not preserve the forwarding state during latest restart
+    Additional-paths Send: advertised and received
+    Additional-paths Receive: advertised and received
+  Route refresh request: received 4, sent 22
+  Policy for incoming advertisements is RP-IMS-MCAST-IN-TO-RR
+  Policy for outgoing advertisements is RP-IMS-MCAST-OUT-TO-RR
+  10664 accepted prefixes, 5181 are bestpaths
+  Cumulative no. of prefixes denied: 6463. 
+    No policy: 0, Failed RT match: 3000705
+    By ORF policy: 0, By policy: 6447
+  Prefix advertised 5818, suppressed 0, withdrawn 1391
+  Maximum prefixes allowed 2097152
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was not received during read-only mode
+  Last ack version 266097285, Last synced ack version 266097285
+  Outstanding version objects: current 0, max 10
+  Additional-paths operation: Send and Receive
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultReoriginate,disable  option
+  Advertise VPNv6 routes is enabled with defaultReoriginate, option
+
+ For Address Family: VPNv6 Unicast
+  BGP neighbor version 12252134
+  Update group: 0.3 Filter-group: 0.1  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+    Graceful Restart capability received
+      Remote Restart time is 120 seconds
+      Neighbor did not preserve the forwarding state during latest restart
+  Route refresh request: received 2, sent 2
+  335 accepted prefixes, 335 are bestpaths
+  Cumulative no. of prefixes denied: 0. 
+  Prefix advertised 67, suppressed 0, withdrawn 14
+  Maximum prefixes allowed 1048576
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was not received during read-only mode
+  Last ack version 12252134, Last synced ack version 12252134
+  Outstanding version objects: current 0, max 3
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultLocal with stitching-RT option
+  Advertise VPNv6 routes is enabled with defaultReoriginate,disable  option
+
+ For Address Family: IPv4 MVPN
+  BGP neighbor version 117876
+  Update group: 0.1 Filter-group: 0.1  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+    Graceful Restart capability received
+      Remote Restart time is 120 seconds
+      Neighbor did not preserve the forwarding state during latest restart
+  Route refresh request: received 2, sent 20
+  201 accepted prefixes, 201 are bestpaths
+  Cumulative no. of prefixes denied: 0. 
+  Prefix advertised 4, suppressed 0, withdrawn 0
+  Maximum prefixes allowed 2097152
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was not received during read-only mode
+  Last ack version 117876, Last synced ack version 117876
+  Outstanding version objects: current 0, max 1
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultLocal with stitching-RT option
+  Advertise VPNv6 routes is enabled with Reoriginate, option
+
+  Connections established 6; dropped 5
+  Local host: 10.99.3.51, Local port: 179, IF Handle: 0x00000000
+  Foreign host: 10.99.255.94, Foreign port: 56193
+  Last reset 16w1d, due to Peer closing down the session
+  Peer reset reason: Remote closed the session (Connection timed out)
+  Time since last notification received from neighbor: 46w3d
+  Error Code: administrative shutdown
+  Notification data received:
+    None
+
+BGP neighbor is 10.99.255.95
+ Remote AS 65001, local AS 65001, internal link
+ Description: R9CVC-RR01
+ Remote router ID 10.99.255.95
+  BGP state = Established, up for 16w1d
+  NSR State: NSR Ready
+  Last read 00:00:12, Last read before reset 16w1d
+  Hold time is 180, keepalive interval is 60 seconds
+  Configured hold time: 180, keepalive: 60, min acceptable hold time: 3
+  Last write 00:00:32, attempted 19, written 19
+  Second last write 00:01:32, attempted 19, written 19
+  Last write before reset 16w1d, attempted 19, written 19
+  Second last write before reset 16w1d, attempted 19, written 19
+  Last write pulse rcvd  Aug 12 14:14:11.815 last full not set pulse count 18355278
+  Last write pulse rcvd before reset 16w1d
+  Socket not armed for io, armed for read, armed for write
+  Last write thread event before reset 16w1d, second last 16w1d
+  Last KA expiry before reset 16w1d, second last 16w1d
+  Last KA error before reset 00:00:00, KA not sent 00:00:00
+  Last KA start before reset 16w1d, second last 16w1d
+  Precedence: internet
+  Non-stop routing is enabled
+  Graceful restart is enabled
+  Restart time is 120 seconds
+  Stale path timeout time is 360 seconds
+  Multi-protocol capability received
+  Neighbor capabilities:
+    Route refresh: advertised (old + new) and received (old + new)
+    Graceful Restart (GR Awareness): received
+    4-byte AS: advertised and received
+    Address family VPNv4 Unicast: advertised and received
+    Address family VPNv6 Unicast: advertised and received
+    Address family IPv4 MVPN: advertised and received
+  Received 68685106 messages, 0 notifications, 0 in queue
+  Sent 394783 messages, 0 notifications, 0 in queue
+  Minimum time between advertisement runs is 0 secs
+  Inbound message logging enabled, 3 messages buffered
+  Outbound message logging enabled, 3 messages buffered
+
+ For Address Family: VPNv4 Unicast
+  BGP neighbor version 266097285
+  Update group: 0.3 Filter-group: 0.4  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+    Graceful Restart capability received
+      Remote Restart time is 120 seconds
+      Neighbor did not preserve the forwarding state during latest restart
+    Additional-paths Send: advertised and received
+    Additional-paths Receive: advertised and received
+  Route refresh request: received 0, sent 13
+  Policy for incoming advertisements is RP-IMS-MCAST-IN-TO-RR
+  Policy for outgoing advertisements is RP-IMS-MCAST-OUT-TO-RR
+  10664 accepted prefixes, 0 are bestpaths
+  Cumulative no. of prefixes denied: 1275. 
+    No policy: 0, Failed RT match: 2973461
+    By ORF policy: 0, By policy: 1259
+  Prefix advertised 5818, suppressed 0, withdrawn 1391
+  Maximum prefixes allowed 2097152
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was not received during read-only mode
+  Last ack version 266097285, Last synced ack version 266097285
+  Outstanding version objects: current 0, max 5
+  Additional-paths operation: Send and Receive
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultReoriginate,disable  option
+  Advertise VPNv6 routes is enabled with defaultReoriginate, option
+
+ For Address Family: VPNv6 Unicast
+  BGP neighbor version 12252134
+  Update group: 0.3 Filter-group: 0.1  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+    Graceful Restart capability received
+      Remote Restart time is 120 seconds
+      Neighbor did not preserve the forwarding state during latest restart
+  Route refresh request: received 0, sent 0
+  335 accepted prefixes, 0 are bestpaths
+  Cumulative no. of prefixes denied: 0. 
+  Prefix advertised 67, suppressed 0, withdrawn 14
+  Maximum prefixes allowed 1048576
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was not received during read-only mode
+  Last ack version 12252134, Last synced ack version 12252134
+  Outstanding version objects: current 0, max 3
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultLocal with stitching-RT option
+  Advertise VPNv6 routes is enabled with defaultReoriginate,disable  option
+
+ For Address Family: IPv4 MVPN
+  BGP neighbor version 117876
+  Update group: 0.1 Filter-group: 0.1  No Refresh request being processed
+  AF-dependent capabilities:
+    Graceful Restart capability advertised
+      Local restart time is 120, RIB purge time is 600 seconds
+      Maximum stalepath time is 360 seconds
+    Graceful Restart capability received
+      Remote Restart time is 120 seconds
+      Neighbor did not preserve the forwarding state during latest restart
+  Route refresh request: received 0, sent 20
+  201 accepted prefixes, 0 are bestpaths
+  Cumulative no. of prefixes denied: 0. 
+  Prefix advertised 4, suppressed 0, withdrawn 0
+  Maximum prefixes allowed 2097152
+  Threshold for warning message 75%, restart interval 0 min
+  AIGP is enabled
+  An EoR was not received during read-only mode
+  Last ack version 117876, Last synced ack version 117876
+  Outstanding version objects: current 0, max 2
+  Additional-paths operation: None
+  Send Multicast Attributes
+  Advertise VPNv4 routes enabled with defaultLocal with stitching-RT option
+  Advertise VPNv6 routes is enabled with Reoriginate, option
+
+  Connections established 3; dropped 2
+  Local host: 10.99.3.51, Local port: 179, IF Handle: 0x00000000
+  Foreign host: 10.99.255.95, Foreign port: 56672
+  Last reset 16w1d, due to Peer closing down the session
+  Peer reset reason: Remote closed the session (Connection timed out)
+RP/0/RSP0/CPU0:nV_JUAREZ_BACKBONE_DD#    
+
+

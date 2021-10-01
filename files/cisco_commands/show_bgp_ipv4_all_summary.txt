@@ -1,0 +1,97 @@
+show bgp ipv4 all summary
+Thu Aug  5 15:15:58.604 MDT
+
+Address Family: VPNv4 Unicast
+-----------------------------
+
+BGP router identifier 10.99.3.1, local AS number 65001
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0x0   RD version: 0
+BGP main routing table version 265733666
+BGP NSR Initial initsync version 8644 (Reached)
+BGP NSR/ISSU Sync-Group versions 265733666/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker       265733666  265733666  265733666  265733666   265733666   265733666
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+10.99.255.92      0 65001 28722932 2147380 265733666    0    0    2y29w       8886
+10.99.255.93      0 65001 28740192 2147276 265733666    0    0    2y29w       8885
+10.99.255.94      0 65001 71413257  525142 265733666    0    0    15w1d      10655
+10.99.255.95      0 65001 68598514  384758 265733666    0    0    15w1d      10655
+
+
+Address Family: IPv4 Unicast
+----------------------------
+
+BGP router identifier 10.99.3.1, local AS number 65001
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 10556
+BGP main routing table version 10556
+BGP NSR Initial initsync version 2 (Reached)
+BGP NSR/ISSU Sync-Group versions 10556/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker           10556      10556      10556      10556       10556       10556
+
+
+Address Family: IPv4 MDT
+------------------------
+
+BGP router identifier 10.99.3.1, local AS number 65001
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0xe0000000   RD version: 0
+BGP main routing table version 1
+BGP NSR Initial initsync version 1 (Reached)
+BGP NSR/ISSU Sync-Group versions 1/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker               1          1          1          1           1           1
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+10.99.255.92      0 65001 28722932 2147380        0    0    0    2y29w  (NoNeg)
+10.99.255.93      0 65001 28740192 2147276        0    0    0    2y29w  (NoNeg)
+
+
+Address Family: IPv4 MVPN
+-------------------------
+
+BGP router identifier 10.99.3.1, local AS number 65001
+BGP generic scan interval 60 secs
+Non-stop routing is enabled
+BGP table state: Active
+Table ID: 0x0   RD version: 0
+BGP main routing table version 117717
+BGP NSR Initial initsync version 1 (Reached)
+BGP NSR/ISSU Sync-Group versions 117717/0
+BGP scan interval 60 secs
+
+BGP is operating in STANDALONE mode.
+
+
+Process       RcvTblVer   bRIB/RIB   LabelVer  ImportVer  SendTblVer  StandbyVer
+Speaker          117717     117717     117717     117717      117717      117717
+
+Neighbor        Spk    AS MsgRcvd MsgSent   TblVer  InQ OutQ  Up/Down  St/PfxRcd
+10.99.255.94      0 65001 71413257  525142   117717    0    0    15w1d        201
+10.99.255.95      0 65001 68598514  384758   117717    0    0    15w1d        201
+
+

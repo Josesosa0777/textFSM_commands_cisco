@@ -1,0 +1,124 @@
+Value Filldown BGP_Router (\d+\.\d+\.\d+\.\d+|[0-9a-f:]*)
+Value Filldown AS (\d+)
+Value Filldown Local_AS (\d+)
+Value Filldown BGP_Adm_State (\S+)
+Value Filldown BGP_Oper_State (\S+)
+Value Filldown Total_Peer_Groups (\d+)
+Value Filldown Total_Peers (\d+)
+Value Filldown Total_VPN_Peer_Groups (\d+)
+Value Filldown Total_VPN_Peers (\d+)
+Value Filldown Total_BGP_Paths (\d+)
+Value Filldown Total_Path_Memory (\d+)
+Value Filldown Total_IPv4_Rem_Rts (\d+)
+Value Filldown Total_IPv4_Rem_Act_Rts (\d+)
+Value Filldown Total_IPv6_Rem_Rts (\d+)
+Value Filldown Total_IPv6_Rem_Act_Rts (\d+)
+Value Filldown Total_IPv4_Backup_Rts (\d+)
+Value Filldown Total_IPv6_Backup_Rts (\d+)
+Value Filldown Total_LblIpv4_Rem_Rts (\d+)
+Value Filldown Total_LblIpv4_Rem_Act_Rts (\d+)
+Value Filldown Total_LblIpv6_Rem_Rts (\d+)
+Value Filldown Total_LblIpv6_Rem_Act_Rts (\d+)
+Value Filldown Total_LblIpv4_Bkp_Rts (\d+)
+Value Filldown Total_LblIpv6_Bkp_Rts (\d+)
+Value Filldown Total_Supressed_Rts (\d+)
+Value Filldown Total_Hist_Rts (\d+)
+Value Filldown Total_Decay_Rts (\d+)
+Value Filldown Total_VPN_IPv4_Rem_Rts (\d+)
+Value Filldown Total_VPN_IPv4_Rem_Act_Rts (\d+)
+Value Filldown Total_VPN_IPv6_Rem_Rts (\d+)
+Value Filldown Total_VPN_IPv6_Rem_Act_Rts (\d+)
+Value Filldown Total_VPN_IPv4_Bkup_Rts (\d+)
+Value Filldown Total_VPN_IPv6_Bkup_Rts (\d+)
+Value Filldown Total_VPN_Local_Rts (\d+)
+Value Filldown Total_VPN_Supp_Rts (\d+)
+Value Filldown Total_VPN_Hist_Rts (\d+)
+Value Filldown Total_VPN_Decay_Rts (\d+)
+Value Filldown Total_MVPN_IPv4_Rem_Rts (\d+)
+Value Filldown Total_MVPN_IPv4_Rem_Act_Rts (\d+)
+Value Filldown Total_MVPN_IPv6_Rem_Rts (\d+)
+Value Filldown Total_MVPN_IPv6_Rem_Act_Rts (\d+)
+Value Filldown Total_MDT_SAFI_Rem_Rts (\d+)
+Value Filldown Total_MDT_SAFI_Rem_Act_Rts (\d+)
+Value Filldown Total_McIPv4_Remote_Rts (\d+)
+Value Filldown Total_McIPv4_Rem_Active_Rts (\d+)
+Value Filldown Total_McIPv6_Remote_Rts (\d+)
+Value Filldown Total_McIPv6_Rem_Active_Rts (\d+)
+Value Filldown Total_McVpnIPv4_Rem_Rts (\d+)
+Value Filldown Total_McVpnIPv4_Rem_Act_Rts (\d+)
+Value Filldown Total_McVpnIPv6_Rem_Rts (\d+)
+Value Filldown Total_McVpnIPv6_Rem_Act_Rts (\d+)
+Value Filldown Total_EVPN_Rem_Rts (\d+)
+Value Filldown Total_EVPN_Rem_Act_Rts (\d+)
+Value Filldown Total_L2_VPN_Rem_Rts (\d+)
+Value Filldown Total_L2VPN_Rem_Act_Rts (\d+)
+Value Filldown Total_MSPW_Rem_Rts (\d+)
+Value Filldown Total_MSPW_Rem_Act_Rts (\d+)
+Value Filldown Total_RouteTgt_Rem_Rts (\d+)
+Value Filldown Total_RouteTgt_Rem_Act_Rts (\d+)
+Value Filldown Total_FlowIpv4_Rem_Rts (\d+)
+Value Filldown Total_FlowIpv4_Rem_Act_Rts (\d+)
+Value Filldown Total_FlowIpv6_Rem_Rts (\d+)
+Value Filldown Total_FlowIpv6_Rem_Act_Rts (\d+)
+Value Filldown Total_Link_State_Rem_Rts (\d+)
+Value Filldown Total_Link_State_Rem_Act_Rts (\d+)
+Value Filldown Total_SrPlcyIpv4_Rem_Rts (\d+)
+Value Filldown Total_SrPlcyIpv4_Rem_Act_Rts (\d+)
+Value Filldown Total_SrPlcyIpv6_Rem_Rts (\d+)
+Value Filldown Total_SrPlcyIpv6_Rem_Act_Rts (\d+)
+Value Vecino_IP (\d+\.\d+\.\d+\.\d+|[0-9a-f:]*)
+Value Vecino_Desc ((?!-+)[A-Z,a-z,0-9,-]+)
+Value Vecino_AS (\d+)
+Value Vecino_PktRcvd (\d+)
+Value Vecino_InQ (\d+)
+Value Vecino_Up_Down (\S+)
+Value Vecino_PktSent (\d+)
+Value Vecino_OutQ (\d+)
+Value Vecino_state (Connect|Active|Idle)
+Value List Add_Fam_Rcv (\d+)
+Value List Add_Fam_Act (\d+)
+Value List Add_Fam_Sent (\d+)
+Value List Add_Fam_Name (\S+)
+
+Start
+ ^\s+BGP Router ID:${BGP_Router}\s+AS:${AS}\s+Local AS:${Local_AS}
+ ^BGP Admin State\s+: ${BGP_Adm_State}\s+BGP Oper State\s+: ${BGP_Oper_State}
+ ^Total Peer Groups\s+: ${Total_Peer_Groups}\s+Total Peers\s+: ${Total_Peers}
+ ^Total VPN Peer Groups\s+: ${Total_VPN_Peer_Groups}\s+Total VPN Peers\s+: ${Total_VPN_Peers}
+ ^Total BGP Paths\s+: ${Total_BGP_Paths}\s+Total Path Memory\s+: ${Total_Path_Memory}
+ ^Total IPv4 Remote Rts\s+: ${Total_IPv4_Rem_Rts}\s+Total IPv4 Rem. Active Rts\s+: ${Total_IPv4_Rem_Act_Rts}
+ ^Total IPv6 Remote Rts\s+: ${Total_IPv6_Rem_Rts}\s+Total IPv6 Rem. Active Rts\s+: ${Total_IPv6_Rem_Act_Rts}
+ ^Total IPv4 Backup Rts\s+: ${Total_IPv4_Backup_Rts}\s+Total IPv6 Backup Rts\s+: ${Total_IPv6_Backup_Rts}
+ ^Total LblIpv4 Rem Rts\s+: ${Total_LblIpv4_Rem_Rts}\s+Total LblIpv4 Rem. Act Rts\s+: ${Total_LblIpv4_Rem_Act_Rts}
+ ^Total LblIpv6 Rem Rts\s+: ${Total_LblIpv6_Rem_Rts}\s+Total LblIpv6 Rem. Act Rts\s+: ${Total_LblIpv6_Rem_Act_Rts}
+ ^Total LblIpv4 Bkp Rts\s+: ${Total_LblIpv4_Bkp_Rts}\s+Total LblIpv6 Bkp Rts\s+: ${Total_LblIpv6_Bkp_Rts}
+ ^Total Supressed Rts\s+: ${Total_Supressed_Rts}\s+Total Hist. Rts\s+: ${Total_Hist_Rts}
+ ^Total Decay Rts\s+: ${Total_Decay_Rts}
+ ^Total VPN-IPv4 Rem. Rts\s+: ${Total_VPN_IPv4_Rem_Rts}\s+Total VPN-IPv4 Rem. Act. Rts: ${Total_VPN_IPv4_Rem_Act_Rts}
+ ^Total VPN-IPv6 Rem. Rts : ${Total_VPN_IPv6_Rem_Rts}\s+Total VPN-IPv6 Rem. Act. Rts: ${Total_VPN_IPv6_Rem_Act_Rts}
+ ^Total VPN-IPv4 Bkup Rts : ${Total_VPN_IPv4_Bkup_Rts}\s+Total VPN-IPv6 Bkup Rts\s+: ${Total_VPN_IPv6_Bkup_Rts}
+ ^Total VPN Local Rts\s+: ${Total_VPN_Local_Rts}\s+Total VPN Supp. Rts\s+: ${Total_VPN_Supp_Rts}
+ ^Total VPN Hist. Rts\s+: ${Total_VPN_Hist_Rts}\s+Total VPN Decay Rts\s+: ${Total_VPN_Decay_Rts}
+ ^Total MVPN-IPv4 Rem Rts : ${Total_MVPN_IPv4_Rem_Rts}\s+Total MVPN-IPv4 Rem Act Rts : ${Total_MVPN_IPv4_Rem_Act_Rts}
+ ^Total MVPN-IPv6 Rem Rts : ${Total_MVPN_IPv6_Rem_Rts}\s+Total MVPN-IPv6 Rem Act Rts : ${Total_MVPN_IPv6_Rem_Act_Rts}
+ ^Total MDT-SAFI Rem Rts  : ${Total_MDT_SAFI_Rem_Rts}\s+Total MDT-SAFI Rem Act Rts\s+: ${Total_MDT_SAFI_Rem_Act_Rts}
+ ^Total McIPv4 Remote Rts : ${Total_McIPv4_Remote_Rts}\s+Total McIPv4 Rem. Active Rts: ${Total_McIPv4_Rem_Active_Rts}
+ ^Total McIPv6 Remote Rts : ${Total_McIPv6_Remote_Rts}\s+Total McIPv6 Rem. Active Rts: ${Total_McIPv6_Rem_Active_Rts}
+ ^Total McVpnIPv4 Rem Rts : ${Total_McVpnIPv4_Rem_Rts}\s+Total McVpnIPv4 Rem Act Rts : ${Total_McVpnIPv4_Rem_Act_Rts}
+ ^Total McVpnIPv6 Rem Rts : ${Total_McVpnIPv6_Rem_Rts}\s+Total McVpnIPv6 Rem Act Rts : ${Total_McVpnIPv6_Rem_Act_Rts}
+ ^Total EVPN Rem Rts\s+: ${Total_EVPN_Rem_Rts}\s+Total EVPN Rem Act Rts\s+: ${Total_EVPN_Rem_Act_Rts}
+ ^Total L2-VPN Rem. Rts\s+: ${Total_L2_VPN_Rem_Rts}\s+Total L2VPN Rem. Act. Rts\s+: ${Total_L2VPN_Rem_Act_Rts}
+ ^Total MSPW Rem Rts\s+: ${Total_MSPW_Rem_Rts}\s+Total MSPW Rem Act Rts\s+: ${Total_MSPW_Rem_Act_Rts}
+ ^Total RouteTgt Rem Rts\s+: ${Total_RouteTgt_Rem_Rts}\s+Total RouteTgt Rem Act Rts\s+: ${Total_RouteTgt_Rem_Act_Rts}
+ ^Total FlowIpv4 Rem Rts\s+: ${Total_FlowIpv4_Rem_Rts}\s+Total FlowIpv4 Rem Act Rts\s+: ${Total_FlowIpv4_Rem_Act_Rts}
+ ^Total FlowIpv6 Rem Rts\s+: ${Total_FlowIpv6_Rem_Rts}\s+Total FlowIpv6 Rem Act Rts\s+: ${Total_FlowIpv6_Rem_Act_Rts}
+ ^Total Link State Rem Rts: ${Total_Link_State_Rem_Rts}\s+Total Link State Rem Act Rts: ${Total_Link_State_Rem_Act_Rts}
+ ^Total SrPlcyIpv4 Rem Rts: ${Total_SrPlcyIpv4_Rem_Rts}\s+Total SrPlcyIpv4 Rem Act Rts: ${Total_SrPlcyIpv4_Rem_Act_Rts}
+ ^Total SrPlcyIpv6 Rem Rts: ${Total_SrPlcyIpv6_Rem_Rts}\s+Total SrPlcyIpv6 Rem Act Rts: ${Total_SrPlcyIpv6_Rem_Act_Rts}
+ ^-+ -> Vecinos
+
+Vecinos
+ ^${Vecino_IP}\s*$$
+ ^(?!\d)${Vecino_Desc}\s*$$
+ ^              \s+${Vecino_AS}\s+${Vecino_PktRcvd}.\s+${Vecino_InQ}\s+${Vecino_Up_Down}\s+(${Vecino_state}|${Add_Fam_Rcv}/${Add_Fam_Act}/${Add_Fam_Sent}\s+\(${Add_Fam_Name}\))\s*$$
+ ^              \s+${Vecino_PktSent}\s+${Vecino_OutQ}\s+${Add_Fam_Rcv}/${Add_Fam_Act}/${Add_Fam_Sent}\s+\(${Add_Fam_Name}\)\s*$$ -> Record Vecinos
